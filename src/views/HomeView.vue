@@ -30,7 +30,7 @@ const menuItems: MenuItem[] = Object.values(ExerciseType)
             Today's Scorecard
         </h1>
 
-        <div class="w-3/5 sm:w-1/5">
+        <div class="w-4/5 sm:w-1/5">
             <HomeMenuItem v-for="item in menuItems"
                 :status="item.status"
                 :score="item.score"
