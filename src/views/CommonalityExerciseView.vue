@@ -15,6 +15,6 @@ const getPrompt = () => `${nouns[getUniqueRandom(nouns.length)]}<br/><br/>${noun
         :shuffle="getPrompt"
         :time="60"
         :rounds="2"
-        :type="ExerciseType.ASSOCIATION"
+        :type="ExerciseType.COMMONALITY"
     />
 </template>
